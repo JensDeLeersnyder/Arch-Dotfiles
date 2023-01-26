@@ -17,8 +17,25 @@ makepkg -si
 ### Packages
 
 ```
-yay -S hyprland-bin polkit-gnome ffmpeg neovim viewnior dunst rofi pavucontrol thunar starship wl-clipboard wf-recorder swaybg grimblast-git ffmpegthumbnailer tumbler playerctl noise-suppression-for-voice thunar-archive-plugin kitty waybar-hyprland wlogout swaylock-effects sddm-git nwg-look-bin nordic-theme papirus-icon-theme pamixer
+yay -S hyperland-bin sddm-git kitty waybar-hyprland vim tldr nano micro brave-bin dolphin vscode json-c curl cmake python-pip libappindicator-gtk3
 ```
+
+## configuration sddm
+Session=Hyprland.desktop
+User=Jens
+Numlock=true
+
+## install nerd font
+mkdir -p $HOME/Downloads/nerdfonts/
+cd $HOME/Downloads/
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.1/CascadiaCode.zip
+unzip '*.zip' -d $HOME/Downloads/nerdfonts/
+rm -rf *.zip
+sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
+
+# waybar weather
+## install python module
+pip install requests
 
 ## Gotchas
 
