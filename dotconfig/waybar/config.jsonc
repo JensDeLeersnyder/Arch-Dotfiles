@@ -16,9 +16,9 @@
         "tray",
         "custom/updates",
         "pulseaudio",
-        "pulseaudio#microphone"
+        "pulseaudio#microphone",
+        "battery"
     ],
-
     "hyprland/window": {
         "format": "{}"
     },
