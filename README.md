@@ -46,7 +46,8 @@ yay -S nvidia
 ```
 yay -S plsama kde-applications plasma-wayland-session
 ```
-Theme used: [Utterly Sweet](https://store.kde.org/p/1906500)
+Global Theme used: [Utterly Sweet](https://store.kde.org/p/1906500)
+SDDM   Theme used: [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
