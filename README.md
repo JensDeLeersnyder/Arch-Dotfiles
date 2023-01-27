@@ -45,13 +45,25 @@ pip install requests
 ```
 yay -S nvidia
 ```
-## Install kde
+# kde
+## install kde
 ```
 yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland-session
 ```
 - Global Theme used: [Utterly Sweet](https://store.kde.org/p/1906500)
 - SDDM   Theme used: [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
 - Package   Updates: [Command Output](https://store.kde.org/p/1166510/)
+
+## kde restore/backup tools
+- [transfuse](https://gitlab.com/cscs/transfuse)
+### backup
+```
+./transfuse.sh -b CURRENTUSER
+```
+### restore
+```
+./transfuse.sh -r PATIENT
+```
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
