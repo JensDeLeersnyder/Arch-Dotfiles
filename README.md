@@ -3,11 +3,9 @@
 ![Screenshot](https://github.com/ChrisTitusTech/hyprland-titus/raw/main/hyprland-titus.png)
 
 ## Install
-
 ### Yay
 
 Run as user NOT ROOT!
-
 ```
 git clone https://aur.archlinux.org/yay-bin
 cd yay-bin
@@ -15,19 +13,18 @@ makepkg -si
 ```
 
 ### Packages
-
 ```
 yay -S hyperland-bin sddm-git kitty waybar-hyprland vim tldr nano micro brave-bin dolphin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin
 ```
 
-## configuration sddm
+## Configuration sddm
 ```
 Session=Hyprland.desktop
 User=Jens
 Numlock=true
 ```
 
-## install nerd font
+## Install nerd font
 ```
 mkdir -p $HOME/Downloads```/nerdfonts/
 cd $HOME/Downloads/"
@@ -37,19 +34,19 @@ rm -rf *.zip
 sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
 ```
 ## waybar weather
-### install python module
+### Install python module
 ```
 pip install requests
 ```
-## install nvidia drivers
+## Install nvidia drivers
 ```
 yay -S nvidia
 ```
-## install kde
+## Install kde
 ```
 yay -S plsama kde-applications plasma-wayland-session
 ```
-theme used: [utterly sweet](https://store.kde.org/p/1906500)
+Theme used: [Utterly Sweet](https://store.kde.org/p/1906500)
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
