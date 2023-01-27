@@ -3,7 +3,7 @@ _k_friendly_name=Activity Manager
 switch-to-activity-c2748b6d-24a0-41f9-a946-face06c0e44f=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
-Switch to Next Keyboard Layout=Meta+Alt+K,none,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
@@ -23,6 +23,7 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
+{819a5115-0ce3-43fc-9435-cadf1e3d9e58}=Print,none,Flameshot
 {8cdcd369-bbfd-499c-81a0-dc62f3048ba1}=Meta+B,none,Browser
 {bb5f7a09-1127-4bf9-ba0a-f9c33d556082}=Meta+X,none,Terminal
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
@@ -229,7 +230,7 @@ OpenWithoutScreenshot=none,none,Launch Spectacle without capturing
 RectangularRegionScreenShot=Meta+Shift+Print,Meta+Shift+Print,Capture Rectangular Region
 WindowUnderCursorScreenShot=Meta+Ctrl+Print,Meta+Ctrl+Print,Capture Window Under Cursor
 _k_friendly_name=Spectacle
-_launch=Print,Print,Launch Spectacle
+_launch=none,Print,Launch Spectacle
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
