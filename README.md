@@ -43,7 +43,7 @@ pip install requests
 ```
 ## install nvidia drivers
 ```
-yay -S nvidea
+yay -S nvidia
 ```
 ## Sources used making these
 
