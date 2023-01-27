@@ -41,6 +41,10 @@ sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
 ```
 pip install requests
 ```
+## install nvidia drivers
+```
+yay -S nvidea
+```
 ## Gotchas
 
 - Recommend archinstall with Sway as desktop for base
