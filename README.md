@@ -45,6 +45,10 @@ pip install requests
 ```
 yay -S nvidia
 ```
+## install kde
+```
+yay -S plsama kde-applications plasma-wayland-session
+```
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
