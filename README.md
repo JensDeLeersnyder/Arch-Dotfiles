@@ -47,7 +47,7 @@ yay -S nvidia
 ```
 ## Install kde
 ```
-yay -S plsama kde-applications plasma-wayland-session
+yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland-session
 ```
 - Global Theme used: [Utterly Sweet](https://store.kde.org/p/1906500)
 - SDDM   Theme used: [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
