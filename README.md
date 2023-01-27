@@ -68,3 +68,4 @@ yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
 - Linux Mobiles Hyprland dot files <https://github.com/linuxmobile/hyprland-dots>
+- Christitus Start <https://github.com/ChrisTitusTech/hyprland-titus>
