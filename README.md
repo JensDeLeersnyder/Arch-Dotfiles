@@ -51,6 +51,7 @@ yay -S plsama kde-applications plasma-wayland-session
 ```
 - Global Theme used: [Utterly Sweet](https://store.kde.org/p/1906500)
 - SDDM   Theme used: [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
+- Package   Updates: [Command Output](https://store.kde.org/p/1166510/)
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
