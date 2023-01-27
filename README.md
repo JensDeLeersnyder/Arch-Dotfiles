@@ -21,22 +21,26 @@ yay -S hyperland-bin sddm-git kitty waybar-hyprland vim tldr nano micro brave-bi
 ```
 
 ## configuration sddm
+```
 Session=Hyprland.desktop
 User=Jens
 Numlock=true
+```
 
 ## install nerd font
-mkdir -p $HOME/Downloads/nerdfonts/
-cd $HOME/Downloads/
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.1/CascadiaCode.zip
+```
+mkdir -p $HOME/Downloads```/nerdfonts/
+cd $HOME/Downloads/"
+wget https://githubcom/ranoasis/nerd-fonts/releases/download/v2.3.1/CascadiaCode.zip
 unzip '*.zip' -d $HOME/Downloads/nerdfonts/
 rm -rf *.zip
 sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
-
-# waybar weather
-## install python module
+```
+## waybar weather
+### install python module
+```
 pip install requests
-
+```
 ## Gotchas
 
 - Recommend archinstall with Sway as desktop for base
