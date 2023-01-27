@@ -20,7 +20,7 @@ makepkg -si
 yay -S hyperland-bin sddm-git kitty waybar-hyprland vim tldr nano micro brave-bin dolphin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin onlyoffice-bin
 ```
 
-## Configuration sddm
+## Configuration Sddm
 ```
 Session=Hyprland.desktop
 User=Jens
@@ -36,7 +36,7 @@ unzip '*.zip' -d $HOME/Downloads/nerdfonts/
 rm -rf *.zip
 sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
 ```
-## waybar weather
+## Waybar Weather
 ### Install python module
 ```
 pip install requests
@@ -45,8 +45,8 @@ pip install requests
 ```
 yay -S nvidia
 ```
-# kde
-## install kde
+# KDE-Plasma
+## install KDE
 ```
 yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland-session
 ```
@@ -54,13 +54,13 @@ yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland
 - SDDM   Theme used: [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde/sddm)
 - Package   Updates: [Command Output](https://store.kde.org/p/1166510/)
 
-## kde restore/backup tools
+## KDE restore/backup tools
 - [transfuse](https://gitlab.com/cscs/transfuse)
-### backup
+### Backup
 ```
 ./transfuse.sh -b CURRENTUSER
 ```
-### restore
+### Restore
 ```
 ./transfuse.sh -r PATIENT
 ```
