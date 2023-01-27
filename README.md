@@ -49,6 +49,7 @@ yay -S nvidia
 ```
 yay -S plsama kde-applications plasma-wayland-session
 ```
+theme used: [utterly sweet](https://store.kde.org/p/1906500)
 ## Sources used making these
 
 - Official Hyprland Github <https://github.com/hyprwm/Hyprland>
