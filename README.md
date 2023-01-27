@@ -1,6 +1,6 @@
 # Hyprland and KDE config files from Jens
 ## Hyprland
-![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/hyprland_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/screenshots/hyprland_screenshot.png)
 
 ## KDE 
 ![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/screenshots/KDE_screenshot.png)
