@@ -3,7 +3,7 @@
 ![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/hyprland_screenshot.png)
 
 ## KDE 
-![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/KDE_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/screenshots/KDE_screenshot.png)
 
 ## Install
 ### Yay
