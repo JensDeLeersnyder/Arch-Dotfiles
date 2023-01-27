@@ -1,6 +1,9 @@
-# Hyprland config files from Titus
+# Hyprland and KDE config files from Jens
+## Hyprland
+![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/hyprland_screenshot.png)
 
-![Screenshot](https://github.com/ChrisTitusTech/hyprland-titus/raw/main/hyprland-titus.png)
+## KDE 
+![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/KDE_screenshot.png)
 
 ## Install
 ### Yay
