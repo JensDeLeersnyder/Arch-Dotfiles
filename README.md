@@ -56,6 +56,12 @@ yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland
 
 ## KDE restore/backup tools
 - [transfuse](https://gitlab.com/cscs/transfuse)
+### install transfuse
+```
+git clone https://gitlab.com/cscs/transfuse.git
+cd transfuse
+chmod +x transfuse.sh
+```
 ### Backup
 ```
 ./transfuse.sh -b CURRENTUSER
