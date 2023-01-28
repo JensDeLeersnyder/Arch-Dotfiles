@@ -42,7 +42,7 @@
     },
     "custom/updates": {
         "exec": "(checkupdates ; yay -Qua) | wc -l",
-        "interval": 7200,
+        "interval": 14400000,
         "format": " {}"
     },
    "custom/weather" : {
