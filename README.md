@@ -55,8 +55,8 @@ yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland
 - Package   Updates: [Command Output](https://store.kde.org/p/1166510/)
 
 ## KDE restore/backup tools
-- [transfuse](https://gitlab.com/cscs/transfuse)
-### install transfuse
+- [Transfuse](https://gitlab.com/cscs/transfuse)
+### install Transfuse
 ```
 git clone https://gitlab.com/cscs/transfuse.git
 cd transfuse
