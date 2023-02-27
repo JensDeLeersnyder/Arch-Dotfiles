@@ -44,7 +44,7 @@ User=Jens
 Numlock=true
 ```
 
-## Install Caskaydiacode nerd font bold
+## Install Caskaydiacode nerd font mono
 ```
 yay -S nerd-fonts-meta
 ```
