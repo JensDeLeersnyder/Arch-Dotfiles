@@ -7,7 +7,7 @@
 
 ## Install
 ## Install Arch
-switch keyboard layout
+Switch keyboard layout
 ```
 Loadkeys be-latin1
 ```
@@ -19,7 +19,7 @@ station wlan0 scan
 station wlan0 get-networks
 station wlan0 connect "Name of Network/WiFi"
 ```
-install OS
+Install OS
 ```
 archinstall
 ```
