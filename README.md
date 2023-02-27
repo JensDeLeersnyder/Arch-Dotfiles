@@ -47,7 +47,7 @@ Numlock=true
 ## Install nerd font
 ```
 mkdir -p $HOME/Downloads /nerdfonts/
-cd $HOME/Downloads/"
+cd $HOME/Downloads/
 wget https://githubcom/ranoasis/nerd-fonts/releases/download/v2.3.1/CascadiaCode.zip
 unzip '*.zip' -d $HOME/Downloads/nerdfonts/
 rm -rf *.zip
