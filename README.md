@@ -37,7 +37,7 @@ makepkg -si
 yay -S vim tldr nano micro brave-bin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin onlyoffice-bin envycontrol nvidia-settings signal-desktop nvidia ntfs-3g git
 ```
 
-## Configuration Sddm
+## Configuration Sddm /etc/sddm.conf
 ```
 Session=Hyprland.desktop
 User=Jens
