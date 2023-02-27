@@ -6,6 +6,23 @@
 ![Screenshot](https://raw.githubusercontent.com/JensDeLeersnyderPXL/arch-dotfiles/main/screenshots/KDE_screenshot.png)
 
 ## Install
+## Install Arch
+switch keyboard layout
+```
+Loadkeys be-latin1
+```
+Connect to wifi
+```
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect "Name of Network/WiFi"
+```
+install OS
+```
+archinstall
+```
 ### Yay
 
 Run as user NOT ROOT!
