@@ -9,7 +9,7 @@
 ## Install Arch
 Switch keyboard layout
 ```
-Loadkeys be-latin1
+loadkeys be-latin1
 ```
 Connect to wifi
 ```
