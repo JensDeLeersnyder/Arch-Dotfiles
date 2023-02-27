@@ -34,7 +34,7 @@ makepkg -si
 
 ### Packages
 ```
-yay -S hyperland-bin sddm-git kitty waybar-hyprland vim tldr nano micro brave-bin dolphin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin onlyoffice-bin envycontrol nvidia-settings signal-desktop nvidia ntfs-3g git
+yay -S vim tldr nano micro brave-bin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin onlyoffice-bin envycontrol nvidia-settings signal-desktop nvidia ntfs-3g git
 ```
 
 ## Configuration Sddm
@@ -52,6 +52,10 @@ wget https://githubcom/ranoasis/nerd-fonts/releases/download/v2.3.1/CascadiaCode
 unzip '*.zip' -d $HOME/Downloads/nerdfonts/
 rm -rf *.zip
 sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
+```
+## install hyprland
+```
+yay -S hyperland-bin sddm-git waybar-hyprland
 ```
 ## Waybar Weather
 ### Install python module
