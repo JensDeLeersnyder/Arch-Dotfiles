@@ -72,19 +72,21 @@ yay -S plsama kde-network-meta kde-system-meta kde-utilities-meta plasma-wayland
 
 ## KDE restore/backup tools
 - [Transfuse](https://gitlab.com/cscs/transfuse)
-### install Transfuse
+### install [Konsave](https://github.com/Prayag2/konsave)
 ```
-git clone https://gitlab.com/cscs/transfuse.git
-cd transfuse
-chmod +x transfuse.sh
+pip install konsave
+```
+### add alias to your shell
+```
+alias konsave="/home/${USER}/.local/bin/konsave"
 ```
 ### Backup
 ```
-./transfuse.sh -b CURRENTUSER
+konsave --export-profile profile_name
 ```
 ### Restore
 ```
-./transfuse.sh -r PATIENT
+konsave --import-profile path/to/profile_name.knsv
 ```
 ## Sources used making these
 
