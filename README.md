@@ -34,7 +34,7 @@ makepkg -si
 
 ### Packages
 ```
-yay -S vim tldr nano micro brave-bin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin onlyoffice-bin envycontrol nvidia-settings signal-desktop nvidia ntfs-3g git rocketchat-desktop paru downgrade zfz
+yay -S vim tldr nano micro brave-bin vscode json-c curl cmake python-pip libappindicator-gtk3 github-desktop-bin onlyoffice-bin envycontrol nvidia-settings signal-desktop nvidia ntfs-3g git rocketchat-desktop paru downgrade zfz packagekit-qt5 oh-my-zsh-git
 ```
 
 ## Configuration Sddm /etc/sddm.conf
